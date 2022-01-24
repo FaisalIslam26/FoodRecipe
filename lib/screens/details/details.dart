@@ -228,10 +228,12 @@ class DetailScreen extends StatelessWidget {
                                   SizedBox(
                                     width: 8,
                                   ),
-                                  Text(
-                                    items['data']['ingredients'][i],
-                                    style: TextStyle(
-                                        fontSize: 15, color: Colors.white),
+                                  Expanded(
+                                    child: Text(
+                                      items['data']['ingredients'][i],
+                                      style: TextStyle(
+                                          fontSize: 15, color: Colors.white),
+                                    ),
                                   ),
                                 ],
                               ),
