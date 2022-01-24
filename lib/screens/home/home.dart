@@ -34,6 +34,7 @@ class HomeScreen extends StatelessWidget {
           ),
           drawer: SafeArea(
             child: Drawer(
+              backgroundColor: Colors.grey[850],
               child: Expanded(
                 flex: 2,
                 child: SingleChildScrollView(
@@ -195,7 +196,7 @@ class HomeScreen extends StatelessWidget {
                 indicator: BoxDecoration(
                     gradient: LinearGradient(
                         colors: [Colors.redAccent, Colors.orangeAccent]),
-                    borderRadius: BorderRadius.circular(50),
+                    // borderRadius: BorderRadius.circular(50),
                     color: Colors.redAccent),
                 tabs: [
                   Tab(
